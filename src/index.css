@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type='range']::-webkit-slider-thumb {
+	width: 13px;
+	-webkit-appearance: none;
+	appearance: none;
+	height: 13px;
+	cursor: ew-resize;
+	background: #fff;
+	border-radius: 50%;
+}
+
+/* * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+} */
+
+/* .grid-container {
+	display: grid;
+	grid-template-areas:
+		'header'
+		'main'
+		'footer';
+}
+
+.header {
+	grid-area: header;
+}
+
+.main {
+	grid-area: main;
+}
+
+.footer {
+	grid-area: footer;
+} */
